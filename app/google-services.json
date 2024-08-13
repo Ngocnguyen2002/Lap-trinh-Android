@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640541705236",
+    "project_id": "rent-house-3fe8d",
+    "storage_bucket": "rent-house-3fe8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640541705236:android:561bf60cac225197c71301",
+        "android_client_info": {
+          "package_name": "com.example.renthouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzaMcw5__GmgnjMwBVl1VQ_kaGzN-sME4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

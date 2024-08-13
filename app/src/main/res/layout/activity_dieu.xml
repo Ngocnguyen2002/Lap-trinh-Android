@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:padding="16dp"
+    tools:context=".DieuActivity">
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Điều khoản và Điều kiện Sử dụng"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_profile"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="34dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="34dp">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="1. Chấp Nhận Điều Kiện"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Bằng cách tải xuống, cài đặt hoặc sử dụng ứng dụng chúng tôi, bạn đồng ý tuân thủ các điều khoản và điều kiện được quy định trong tài liệu này."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="2. Quyền Sở Hữu"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Ứng dụng thuê trọ này và tất cả các nội dung liên quan (bao gồm cả nội dung được cung cấp bởi người dùng) là tài sản của chúng tôi và được bảo vệ bởi luật bản quyền."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="3. Sử Dụng Dịch Vụ"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Bạn cam kết sử dụng dịch vụ của chúng tôi chỉ cho mục đích cá nhân và phi thương mại. Bạn không được sử dụng ứng dụng của chúng tôi để gây gổ, quấy rối hoặc vi phạm quyền riêng tư của người khác."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="4. Thông Tin Cá Nhân"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn và sử dụng nó theo quy định trong Chính sách Bảo mật của chúng tôi."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="5. Thay Đổi Điều Khoản"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Chúng tôi có thể thay đổi điều khoản và điều kiện này theo quyết định của chúng tôi. Các thay đổi này sẽ có hiệu lực ngay khi chúng được đăng trên ứng dụng của chúng tôi."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="6. Chấm Dứt Sử Dụng"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Chúng tôi có quyền chấm dứt hoặc tạm ngừng cung cấp dịch vụ cho bất kỳ lý do nào mà không cần báo trước."
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="7. Liên Hệ"
+                android:textColor="@color/material_dynamic_neutral30"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:text="Nếu bạn có bất kỳ câu hỏi hoặc khiếu nại nào về điều khoản và điều kiện này, vui lòng liên hệ với chúng tôi qua email, số điện thoại."
+                android:textColor="@color/material_dynamic_neutral30" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
